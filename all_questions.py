@@ -244,7 +244,7 @@ def question7():
     answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "With one class significantly outnumbering others, the cluster exhibits dominance, resulting in lower entropy."
 
     return answers
 
