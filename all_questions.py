@@ -8,55 +8,55 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = True
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = False
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = ""
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = ""
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
     answers["(f) explain"] = ""
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = False
 
     # type: explanatory string (at least four words)
     answers["(g) explain"] = ""
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
     answers["(h) explain"] = ""
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = True
 
     # type: explanatory string (at least four words)
     answers["(i) explain"] = ""
@@ -71,19 +71,19 @@ def question2():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
@@ -98,13 +98,13 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = 7.5
+    answers["(a) SSE"] = "4 * R**2"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = 7.5
+    answers["(b) SSE"] = "4 * (a**2 + b**2 + c**2)"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = 7.5
+    answers["(c) SSE"] = "4 * (R**2 + (R/2)**2)"
 
     return answers
 
@@ -116,25 +116,25 @@ def question4():
     answers = {}
 
     # type: int
-    answers["(a) Circle (a)"] = 0
+    answers["(a) Circle (a)"] = 1
 
     # type: int
-    answers["(a) Circle (b)"] = 0
+    answers["(a) Circle (b)"] = 1
 
     # type: int
-    answers["(a) Circle (c)"] = 0
+    answers["(a) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: int
-    answers["(b) Circle (a)"] = 0
+    answers["(b) Circle (a)"] = 1
 
     # type: int
-    answers["(b) Circle (b)"] = 0
+    answers["(b) Circle (b)"] = 1
 
     # type: int
-    answers["(b) Circle (c)"] = 0
+    answers["(b) Circle (c)"] = 1
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -146,7 +146,7 @@ def question4():
     answers["(c) Circle (b)"] = 0
 
     # type: int
-    answers["(c) Circle (c)"] = 0
+    answers["(c) Circle (c)"] = 2
 
     # type: explanatory string (at least four words)
     answers["(c) explain"] = ""
@@ -161,13 +161,13 @@ def question5():
     answers = {}
 
     # type: set
-    answers["(a)"] = set()
+    answers["(a)"] = {'Group A','Group B'}
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: set
-    answers["(b)"] = set()
+    answers["(b)"] = {'Group A','Group C'}
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -233,13 +233,13 @@ def question7():
     answers = {}
 
     # type: string
-    answers["(a)"] = ""
+    answers["(a)"] = "Cluster 4"
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: string
-    answers["(b)"] = ""
+    answers["(b)"] = "Cluster 1"
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
@@ -314,19 +314,19 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = []
+    answers["(a)"] = ['Hierarchical','overlapping','partial']
 
     # type: list
-    answers["(b)"] = []
+    answers["(b)"] = ['Partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = []
+    answers["(c)"] = ['Partitional','fuzzy','complete']
 
     # type: list
-    answers["(d)"] = []
+    answers["(d)"] = ['Hierarchical','overlapping','partial']
 
     # type: list
-    answers["(e)"] = []
+    answers["(e)"] = ['Partitional','Exclusive','partial']
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = ""
@@ -341,19 +341,19 @@ def question10():
     answers = {}
 
     # type: string
-    answers["(a) Figure (a)"] = ""
+    answers["(a) Figure (a)"] = "no"
 
     # type: string
-    answers["(a) Figure (b)"] = ""
+    answers["(a) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
     answers["(a) explain"] = ""
 
     # type: string
-    answers["(b) Figure (a)"] = ""
+    answers["(b) Figure (a)"] = "no"
 
     # type: string
-    answers["(b) Figure (b)"] = ""
+    answers["(b) Figure (b)"] = "yes"
 
     # type: explanatory string (at least four words)
     answers["(b) explain"] = ""
