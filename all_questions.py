@@ -214,10 +214,10 @@ def question6():
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = {'A','B','C','D','E','F','G','H','I','J','L','M'}
+    answers["(c)-b cluster 1"] = {'B','C','D','E','F','G','H','I','J','L','M'}
 
     # type: set
-    answers["(c)-b cluster 2"] = set()
+    answers["(c)-b cluster 2"] = {'A'}
 
     # type: set
     answers["(c)-b cluster 3"] = set()
