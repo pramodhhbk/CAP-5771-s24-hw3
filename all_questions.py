@@ -106,7 +106,7 @@ def question3():
     answers["(b) SSE"] = "4 * (a**2 + b**2 + R*2)"
 
     # type: a string that evaluates to a float
-    answers["(c) SSE"] = "4 * (R**2 + (R/2)**2)"
+    answers["(c) SSE"] = "10 * (R**2)"
 
     return answers
 
@@ -193,7 +193,7 @@ def question6():
     answers["(a) noise"] = {'A','H'}
 
     # type: set
-    answers["(b) cluster 1"] = {'B','C','E','F','G','E','D'}
+    answers["(b) cluster 1"] = {'B','C','E','F','G','D'}
 
     # type: set
     answers["(b) cluster 2"] = {'I','J','L','M' }
