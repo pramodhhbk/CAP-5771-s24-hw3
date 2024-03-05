@@ -217,7 +217,7 @@ def question6():
     answers["(c)-b cluster 1"] = {'A','B','C','D','E','F','G','H','I','J','L','M'}
 
     # type: set
-    answers["(c)-b cluster 2"] = {'A'}
+    answers["(c)-b cluster 2"] = set()
 
     # type: set
     answers["(c)-b cluster 3"] = set()
