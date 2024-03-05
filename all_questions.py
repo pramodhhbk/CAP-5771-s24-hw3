@@ -103,7 +103,7 @@ def question3():
     answers["(a) SSE"] = "4 * R**2"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = "4 * (a**2 + b**2 + R*2)"
+    answers["(b) SSE"] = "4 * (a**2 + b**2 + R**2)"
 
     # type: a string that evaluates to a float
     answers["(c) SSE"] = "10 * (R**2)"
