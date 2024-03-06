@@ -26,7 +26,7 @@ def question1():
     answers["(c) explain"] = "While k-means is typically more computationally efficient and memory-friendly than agglomerative hierarchical clustering for large datasets, it's inaccurate to assert it as the most efficient clustering algorithm overall. Other algorithms may outperform k-means under specific conditions or offer advantages in particular scenarios."
 
     # type: bool (True/False)
-    answers["(d)"] = False
+    answers["(d)"] = True
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "The sum of squared errors (SSE) in clustering usually decreases as clusters split, allowing centroids to better represent data points within smaller clusters, thereby reducing distances between data points and their respective centroids."
