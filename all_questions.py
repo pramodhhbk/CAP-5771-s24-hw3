@@ -26,7 +26,7 @@ def question1():
     answers["(c) explain"] = "While k-means is typically more computationally efficient and memory-friendly than agglomerative hierarchical clustering for large datasets, it's inaccurate to assert it as the most efficient clustering algorithm overall. Other algorithms may outperform k-means under specific conditions or offer advantages in particular scenarios."
 
     # type: bool (True/False)
-    answers["(d)"] = True
+    answers["(d)"] = False
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = "The sum of squared errors (SSE) in clustering usually decreases as clusters split, allowing centroids to better represent data points within smaller clusters, thereby reducing distances between data points and their respective centroids."
@@ -100,10 +100,10 @@ def question3():
     answers = {}
 
     # type: a string that evaluates to a float
-    answers["(a) SSE"] = "4 * (R**2)"
+    answers["(a) SSE"] = "4 * R**2"
 
     # type: a string that evaluates to a float
-    answers["(b) SSE"] = "4 * (a**2 + b**2 + R**2)"
+    answers["(b) SSE"] = "4 * (a**2 + b**2 + R*2)"
 
     # type: a string that evaluates to a float
     answers["(c) SSE"] = "10 * (R**2)"
@@ -214,7 +214,7 @@ def question6():
     answers["(c)-a noise"] = set()
 
     # type: set
-    answers["(c)-b cluster 1"] = {'B','C','D','E','F','G','H','I','J','L','M'}
+    answers["(c)-b cluster 1"] = {'A','B','C','D','E','F','G','H','I','J','L','M'}
 
     # type: set
     answers["(c)-b cluster 2"] = {'A'}
@@ -316,19 +316,19 @@ def question9():
     answers = {}
 
     # type: list
-    answers["(a)"] = ['hierarchical','overlapping','partial']
+    answers["(a)"] = ['Hierarchical','overlapping','partial']
 
     # type: list
-    answers["(b)"] = ['partitional','exclusive','complete']
+    answers["(b)"] = ['Partitional','exclusive','complete']
 
     # type: list
-    answers["(c)"] = ['partitional','fuzzy','complete']
+    answers["(c)"] = ['Partitional','fuzzy','complete']
 
     # type: list
-    answers["(d)"] = ['hierarchical','overlapping','partial']
+    answers["(d)"] = ['Hierarchical','overlapping','partial']
 
     # type: list
-    answers["(e)"] = ['partitional','exclusive','partial']
+    answers["(e)"] = ['Partitional','Exclusive','partial']
 
     # type: explanatory string (at least four words)
     answers["(e) explain"] = "Students with similar scores and mark levels can also be grouped together in a hierarchical structure."
@@ -361,7 +361,7 @@ def question10():
     answers["(b) explain"] = "K-means would identify the nose, eyes, and mouth regions, but it would also encompass the lower density points."
 
     # type: string
-    answers["(c)"] = "DBSCAN"
+    answers["(c)"] = "Take the reciprocal of the density as the new density and use DBSCAN"
 
     return answers
 
